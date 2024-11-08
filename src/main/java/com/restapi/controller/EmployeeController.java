@@ -29,7 +29,7 @@ import io.swagger.v3.oas.annotations.tags.Tag;
 @CrossOrigin(origins = "*")
 
 @Tag(name = "Employee")
-@SecurityRequirement(name = "thapak-auth")
+@SecurityRequirement(name = "jain-auth")
 
 public class EmployeeController {
 
