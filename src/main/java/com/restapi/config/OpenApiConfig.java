@@ -13,17 +13,17 @@ import io.swagger.v3.oas.annotations.servers.Server;
 @OpenAPIDefinition(
 		info = @Info(
 				contact = @Contact(
-						name = "Deepak Thapak",
-						email = "ds948270@gmail.com",
-						url = "https://github.com/deepak948270"
+						name = "Shivam jain",
+						email = "jain027@gmail.com",
+						url = "https://github.com/Shivam948270"
 						
 						),
 				description = "RESTFULL API FOR PERFORMING CRUD OPERATIONS",
-				title = "CRUD API-deepaksharma",
+				title = "CRUD API-shivamjain",
 				version = "1.0",
 				license = @License(
 						name = "linkedin",
-						url = "https://www.linkedin.com/in/deepak-sharma-29b913241/"
+						url = "https://www.linkedin.com/in/shivam-jain-22284532b/"
 						),
 				termsOfService = "terms of service"
 			
@@ -36,7 +36,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 		},
 		security = {
 				@SecurityRequirement(
-						name = "thapak-auth"
+						name = "shivam-auth"
 						)
 		}
 		 
@@ -44,7 +44,7 @@ import io.swagger.v3.oas.annotations.servers.Server;
 		)
 		
 		  @SecurityScheme(
-		   name = "thapak-auth",
+		   name = "shivam-auth",
 		  scheme = "basic",
 		  type = SecuritySchemeType.HTTP, 
 		  in = SecuritySchemeIn.HEADER 
