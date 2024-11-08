@@ -24,8 +24,8 @@ public class SecurityConfig {
 	@Bean
 	UserDetailsService userDetailsService() {
 		UserDetails firstUser =User.builder()
-				.username("king")
-				.password(passwordEncoder().encode("thapak"))
+				.username("shivam")
+				.password(passwordEncoder().encode("jain"))
 				.build();
 		return new InMemoryUserDetailsManager(firstUser);
 	          
